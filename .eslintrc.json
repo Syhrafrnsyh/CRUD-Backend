@@ -15,9 +15,16 @@
   "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "rules": {
     "no-console": "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    // "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    // "no-unused-vars": ["error", {
+    //   "vars": "all", "args": "after-used",
+    //   "argsIgnorePattern": "^_",
+    //   "ignoreRestSiblings": false
+    //   }],
+    "no-unused-vars": "off",
     "import/extensions": "off",
     "consistent-return": "off",
+    "radix": "off",
     "new-cap": ["off", { "capIsNewExceptionPattern": "$.*" }]
   }
 }
